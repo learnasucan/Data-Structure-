@@ -38,7 +38,14 @@ func arrayIntro(){
     var array4 = [Int]()
     array4.append(2)
     
-    
+   
+    print(array.first)
+    print(array.count)
+    print(array.last)
+    print(array.capacity)
+    print(array.endIndex)
+    print(array.startIndex)
+    print(array.index(after: 0))
 }
 
 
